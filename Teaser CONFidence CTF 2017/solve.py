@@ -2,7 +2,7 @@ correct = "983bb35ed0a800fcc85d12806df9225364713be578ba67f65bc508b77f0c54878eda1
 correct = [ord(x) for x in correct]
 n=[0 for x in xrange(0,64)]
 
-def perm(imm,line):
+def reverse_perm(imm,line):
     global correct
     global n
     n=[0 for x in xrange(0,64)]
@@ -37,7 +37,7 @@ def parse_file():
                 line=line[6:].split(", ")
                 line[511]=line[511].split("]")[0]
                 imm=[int(x) for x in line]
-                perm(imm,line)
+                reverse_perm(imm,line)
             elif line[:3]=="xor":
                 line=line[5:].split(", ")
                 line[63]=line[63].split("]")[0]
