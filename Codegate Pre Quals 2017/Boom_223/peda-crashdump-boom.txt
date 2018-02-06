@@ -1,0 +1,64 @@
+[m[-----------------------------START OF CRASH DUMP------------------------------][0m
+[mTimestamp: Sun Feb  4 03:46:46 2018[0m
+[mReason: [;31mInteractive dump[0m[0m
+[mExploitability: Unknown[0m
+[;34m[----------------------------------registers-----------------------------------][0m
+[m[;32mRAX[0m: 0x7 
+[;32mRBX[0m: 0x0 
+[;32mRCX[0m: [;34m0x7fffffffd638[0m --> [;34m0x7ffff6c15080[0m --> [;34m0x7ffff6c3f000[0m ("      0abcde\n")
+[;32mRDX[0m: 0x6 
+[;32mRSI[0m: [;34m0x7fffffffd150[0m --> 0x6 
+[;32mRDI[0m: [;34m0x7fffffffd638[0m --> [;34m0x7ffff6c15080[0m --> [;34m0x7ffff6c3f000[0m ("      0abcde\n")
+[;32mRBP[0m: [;34m0x7fffffffde30[0m --> [;34m0x7fffffffdfc0[0m --> [;31m0x5555555be7b0[0m (<__libc_csu_init>:	push   r15)
+[;32mRSP[0m: [;34m0x7fffffffd430[0m --> 0x1a 
+[;32mRIP[0m: [;31m0x555555565454[0m (<_ZN4main5func217h1fb78fe34ca4b6aeE+484>:	mov    rax,QWORD PTR [rsp+0x160])
+[;32mR8 [0m: 0xb ('\x0b')
+[;32mR9 [0m: 0x65 ('e')
+[;32mR10[0m: [;32m0x5555555c1400[0m --> 0x8 
+[;32mR11[0m: [;34m0x7ffff6c0f050[0m --> [;34m0x7ffff6c2a040[0m --> [;34m0x7ffff6c3f000[0m ("      0abcde\n")
+[;32mR12[0m: [;34m0x7ffff6c20038[0m --> 0x0 
+[;32mR13[0m: [;34m0x7ffff6c22060[0m ("/home/r00tus3r/Downloads/Codegate_2017/Boom/boom")
+[;32mR14[0m: [;34m0x7fffffffdf40[0m --> 0x0 
+[;32mR15[0m: [;34m0x7fffffffdf30[0m --> 0x0[0m
+[m[;32mEFLAGS[0m: 0x206 ([;32mcarry[0m [;1;31mPARITY[0m [;32madjust[0m [;32mzero[0m [;32msign[0m [;32mtrap[0m [;1;31mINTERRUPT[0m [;32mdirection[0m [;32moverflow[0m)[0m
+[m[;34m[-------------------------------------code-------------------------------------][0m[0m
+[m   0x55555556542e <_ZN4main5func217h1fb78fe34ca4b6aeE+446>:[;2m	lea    rsi,[rsp+0x220][0m
+   0x555555565436 <_ZN4main5func217h1fb78fe34ca4b6aeE+454>:[;2;32m	call   0x555555561c90 <_ZN4core4iter8iterator8Iterator7collect17h360b422345980becE>[0m
+   0x55555556543b <_ZN4main5func217h1fb78fe34ca4b6aeE+459>:[;2;33m	jmp    0x55555556543d <_ZN4main5func217h1fb78fe34ca4b6aeE+461>[0m
+   0x55555556543d <_ZN4main5func217h1fb78fe34ca4b6aeE+461>:[;2m	lea    rdi,[rsp+0x208][0m
+   0x555555565445 <_ZN4main5func217h1fb78fe34ca4b6aeE+469>:[;2;32m	call   0x5555555625d0 <_ZN33_$LT$alloc..vec..Vec$LT$T$GT$$GT$3len17h73dc850656f2ee4dE>[0m
+   0x55555556544a <_ZN4main5func217h1fb78fe34ca4b6aeE+474>:[;2m	mov    QWORD PTR [rsp+0x160],rax[0m
+   0x555555565452 <_ZN4main5func217h1fb78fe34ca4b6aeE+482>:[;2;33m	jmp    0x555555565454 <_ZN4main5func217h1fb78fe34ca4b6aeE+484>[0m
+=> 0x555555565454 <_ZN4main5func217h1fb78fe34ca4b6aeE+484>:[;1;32m	mov    rax,QWORD PTR [rsp+0x160][0m
+   0x55555556545c <_ZN4main5func217h1fb78fe34ca4b6aeE+492>:[;31m	cmp    rax,0x7[0m
+   0x555555565460 <_ZN4main5func217h1fb78fe34ca4b6aeE+496>:[;33m	jne    0x555555565476 <_ZN4main5func217h1fb78fe34ca4b6aeE+518>[0m
+   0x555555565462 <_ZN4main5func217h1fb78fe34ca4b6aeE+498>:[;33m	jmp    0x55555556547d <_ZN4main5func217h1fb78fe34ca4b6aeE+525>[0m
+   0x555555565464 <_ZN4main5func217h1fb78fe34ca4b6aeE+500>:[m	lea    rdi,[rsp+0x208][0m
+   0x55555556546c <_ZN4main5func217h1fb78fe34ca4b6aeE+508>:[;32m	call   0x55555555d470 <_ZN4core3ptr13drop_in_place17h175654d7e922b25dE>[0m
+   0x555555565471 <_ZN4main5func217h1fb78fe34ca4b6aeE+513>:[;33m	jmp    0x55555556536d <_ZN4main5func217h1fb78fe34ca4b6aeE+253>[0m
+   0x555555565476 <_ZN4main5func217h1fb78fe34ca4b6aeE+518>:[;32m	call   0x55555556a410 <_ZN4main5func917h0a15ac6c05fddc27E>[0m
+   0x55555556547b <_ZN4main5func217h1fb78fe34ca4b6aeE+523>:[;33m	jmp    0x55555556547f <_ZN4main5func217h1fb78fe34ca4b6aeE+527>[0m[0m
+[m[;34m[------------------------------------stack-------------------------------------][0m[0m
+[m0000| [;34m0x7fffffffd430[0m --> 0x1a [0m
+[m0008| [;34m0x7fffffffd438[0m --> [;31m0x55555556e159[0m (<_ZN99_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$17get_unchecked_mut17h8cd50c1b176a9242E+73>:	mov    QWORD PTR [rsp+0x8],rax)[0m
+[m0016| [;34m0x7fffffffd440[0m --> 0x1a [0m
+[m0024| [;34m0x7fffffffd448[0m --> [;34m0x7ffff6c200c6[0m --> 0x0 [0m
+[m0032| [;34m0x7fffffffd450[0m --> [;34m0x7ffff6c200c6[0m --> 0x0 [0m
+[m0040| [;34m0x7fffffffd458[0m --> [;34m0x7ffff6c200c0[0m --> 0xa69687a6f4b ('Kozhi\n')[0m
+[m0048| [;34m0x7fffffffd460[0m --> [;34m0x7fffffffd4b8[0m --> 0x6 [0m
+[m0056| [;34m0x7fffffffd468[0m --> [;31m0x55555556e301[0m (<_ZN99_$LT$core..ops..range..Range$LT$usize$GT$$u20$as$u20$core..slice..SliceIndex$LT$$u5b$T$u5d$$GT$$GT$9index_mut17h54391b1cbd9e145bE+177>:	)[0m
+[;34m[-----------------------backtrace (innermost 10 frames)------------------------][0m
+[m#0  0x0000555555565454 in main::func2::h1fb78fe34ca4b6ae ()
+#1  0x0000555555564d97 in main::func1::hbc30de2a8cc97367 ()
+#2  0x0000555555564a06 in main::main::hdb2247a3d8e3b570 ()
+#3  0x00005555555b7f9f in panic_unwind::__rust_maybe_catch_panic () at /checkout/src/libpanic_unwind/lib.rs:101
+#4  0x000055555557bf1c in std::panicking::try<(),closure> () at /checkout/src/libstd/panicking.rs:459
+#5  std::panic::catch_unwind<closure,()> () at /checkout/src/libstd/panic.rs:365
+#6  std::rt::lang_start () at /checkout/src/libstd/rt.rs:58
+#7  0x000055555556b47e in main ()
+#8  0x00007ffff71ee830 in __libc_start_main (main=0x55555556b460 <main>, argc=0x1, argv=0x7fffffffe0b8, init=<optimized out>, fini=<optimized out>, 
+    rtld_fini=<optimized out>, stack_end=0x7fffffffe0a8) at ../csu/libc-start.c:291
+#9  0x000055555555c2d9 in _start ()
+[0m
+[m[------------------------------END OF CRASH DUMP-------------------------------]
+[0m
