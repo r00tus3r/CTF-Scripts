@@ -1,2 +1,4 @@
-# Scripts
-Scripts made for solving random CTF challenges
+# CTF Stuff
+
+* Contain scripts that I made for solving random CTF challenges
+* Contains challenges that I made for InCTF 2017
