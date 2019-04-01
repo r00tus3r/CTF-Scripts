@@ -6,15 +6,20 @@ ror = lambda val, r_bits, max_bits: \
 
 max_bits = 32
 
+# Const array from the program
+arr = [0x6291bda5, 0xd40cbbbb, 0xcdb9f3e5, 0xedbd5140, 0x2a716584, 0x42a476de, 0x79c7cea9, 0x48852b0e, 0x2a53b9c8, 0x2984790b, 0xdaaed337, 0x0245815e, 0x014020ae, 0x3a84aaa9, 0x84b1fd24, 0x2766105f, 0x1b765e10, 0xb691adc9, 0xeb50c850, 0x264c358b, 0x32213a84, 0x387a7378, 0x1d7a8a61, 0x883de7f1, 0x2c3bae3b, 0x6de14ba2]
+
+# Read data from encrypted file
 f = open('data.jac2', 'rb')
 enc = f.readlines()
 enc = enc[0].encode('hex')
 data = []
-arr = [0x6291bda5, 0xd40cbbbb, 0xcdb9f3e5, 0xedbd5140, 0x2a716584, 0x42a476de, 0x79c7cea9, 0x48852b0e, 0x2a53b9c8, 0x2984790b, 0xdaaed337, 0x0245815e, 0x014020ae, 0x3a84aaa9, 0x84b1fd24, 0x2766105f, 0x1b765e10, 0xb691adc9, 0xeb50c850, 0x264c358b, 0x32213a84, 0x387a7378, 0x1d7a8a61, 0x883de7f1, 0x2c3bae3b, 0x6de14ba2]
 
+# Convert the data to list of dwords
 for i in range(0, 96, 8):
     data.append(int('0x'+enc[i+6:i+8]+enc[i+4:i+6]+enc[i+2:i+4]+enc[i:i+2], 16))
 
+# Decryption algorithm
 for i in range(0, 12, 2):
     for j in range(25, 1, -2):
         data[i+1] = data[i+1] - arr[j] & 0xffffffff
@@ -29,6 +34,7 @@ for i in range(0, 12, 2):
     data[i] = data[i] - arr[0] & 0xffffffff
     data[i+1] = data[i+1] - arr[1] & 0xffffffff
 
+# Printing the flag
 flag = ''
 for i in range(12):
     flag += str(hex(data[i])).strip('L')[2:].decode('hex')[::-1]
