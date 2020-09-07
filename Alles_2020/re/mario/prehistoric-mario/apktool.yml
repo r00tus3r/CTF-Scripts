@@ -1,0 +1,37 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: prehistoric-mario.apk
+compressionType: false
+doNotCompress:
+- arsc
+- jpg
+- png
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '29'
+sharedLibrary: false
+sparseResources: false
+unknownFiles:
+  com/badlogic/gdx.gwt.xml: '8'
+  com/badlogic/gdx/graphics/g3d/particles/particles.fragment.glsl: '8'
+  com/badlogic/gdx/graphics/g3d/particles/particles.vertex.glsl: '8'
+  com/badlogic/gdx/graphics/g3d/shaders/default.fragment.glsl: '8'
+  com/badlogic/gdx/graphics/g3d/shaders/default.vertex.glsl: '8'
+  com/badlogic/gdx/graphics/g3d/shaders/depth.fragment.glsl: '8'
+  com/badlogic/gdx/graphics/g3d/shaders/depth.vertex.glsl: '8'
+  com/badlogic/gdx/physics/box2d.gwt.xml: '8'
+  com/badlogic/gdx/utils/JsonReader.rl: '8'
+  com/badlogic/gdx/utils/XmlReader.rl: '8'
+  com/badlogic/gdx/utils/arial-15.fnt: '8'
+  com/badlogic/gdx/utils/arial-15.png: '0'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.3.4-dirty
+versionInfo:
+  versionCode: '1'
+  versionName: '1.0'

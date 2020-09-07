@@ -1,0 +1,205 @@
+Manifest-Version: 1.0
+Built-By: Generated-by-ADT
+Created-By: Android Gradle 3.4.1
+
+Name: AndroidManifest.xml
+SHA1-Digest: QC32Ez0yLgX2O6ma3iGsQMcWJlo=
+
+Name: assets/badlogic.jpg
+SHA1-Digest: 8P0eHJ3vx0Un1dNfLgIlENruF8Q=
+
+Name: assets/flag_enc
+SHA1-Digest: v+i3U5sv/+cIm6dU1TmJfAfdbqM=
+
+Name: assets/flatDark23.png
+SHA1-Digest: xUtaUTMZ93ViV1tFzV6B/YLkEDM=
+
+Name: assets/flatDark24.png
+SHA1-Digest: 5BaxGhREB6NE6ggbtprpJZXie8A=
+
+Name: assets/flatDark25.png
+SHA1-Digest: svvni40rQU9sgMjsLIk+07mV6Lg=
+
+Name: assets/flatDark26.png
+SHA1-Digest: KRgj/aJ982QTpPfoTNaoMQbuJkI=
+
+Name: assets/koalio.png
+SHA1-Digest: ohp45lA/y9sG4XJ8su1VY2XKP70=
+
+Name: assets/map.tmx
+SHA1-Digest: f78WlJOzvYqfSLiP3YE7hhSDoR0=
+
+Name: assets/mort.png
+SHA1-Digest: jqfRR3vMgCu+fWrxlI+POfPtQcE=
+
+Name: assets/tileSet.png
+SHA1-Digest: 5+X/zmT99XwJf9ya31Fp31tSf6E=
+
+Name: assets/tileSet.tsx
+SHA1-Digest: dQuqnt12MfayTToI87rY4wDM8YA=
+
+Name: classes.dex
+SHA1-Digest: iMcGDHqVUY4z8wz/YGtEYrL6Ty0=
+
+Name: com/badlogic/gdx.gwt.xml
+SHA1-Digest: HlzP42BqxIe/vlY8qKXjWI0Q/iM=
+
+Name: com/badlogic/gdx/graphics/g3d/particles/particles.fragment.glsl
+SHA1-Digest: eltpoI9VEQthWEf8LAXkJfJEGQ0=
+
+Name: com/badlogic/gdx/graphics/g3d/particles/particles.vertex.glsl
+SHA1-Digest: VeixyrZx+kS9b1DLeifpmk9yo0U=
+
+Name: com/badlogic/gdx/graphics/g3d/shaders/default.fragment.glsl
+SHA1-Digest: ibecuOTUc6q2HNrtiesNCOyHdRo=
+
+Name: com/badlogic/gdx/graphics/g3d/shaders/default.vertex.glsl
+SHA1-Digest: 46Wtf4KenDg0yEWqSsTdpuvQl9s=
+
+Name: com/badlogic/gdx/graphics/g3d/shaders/depth.fragment.glsl
+SHA1-Digest: aHdXmgZwiYDmTlwsjKtG3SHTjkw=
+
+Name: com/badlogic/gdx/graphics/g3d/shaders/depth.vertex.glsl
+SHA1-Digest: qP39EvtQJSduA5tV3GAIxpl4jD4=
+
+Name: com/badlogic/gdx/physics/box2d.gwt.xml
+SHA1-Digest: 3OQuUQOdA4vRXtkI9cNql5aollo=
+
+Name: com/badlogic/gdx/utils/JsonReader.rl
+SHA1-Digest: zEaRa1SMb/CQFUpmHdqHh/2L/to=
+
+Name: com/badlogic/gdx/utils/XmlReader.rl
+SHA1-Digest: 1jUGKZ+BaN7F8/8lrnshXtekY6o=
+
+Name: com/badlogic/gdx/utils/arial-15.fnt
+SHA1-Digest: lJMEBO6KXBGAB7uP2j2Odqe+ijQ=
+
+Name: com/badlogic/gdx/utils/arial-15.png
+SHA1-Digest: cNIREcVEJ4mg/sQa8fTMElWnwwo=
+
+Name: lib/arm64-v8a/libgdx-box2d.so
+SHA1-Digest: shp4nfiyNrdlx7rlnFqMw4AJzo4=
+
+Name: lib/arm64-v8a/libgdx.so
+SHA1-Digest: HVfWrt/DCSOl5YkG1CvVo5c3EX0=
+
+Name: lib/armeabi-v7a/libgdx-box2d.so
+SHA1-Digest: +6U8pxUDzvQQETp5BeTj+HrbHSw=
+
+Name: lib/armeabi-v7a/libgdx.so
+SHA1-Digest: X0jEIe2RPhBEcrODwwmGsyBTlVU=
+
+Name: lib/armeabi/libgdx-box2d.so
+SHA1-Digest: bLgjDkMJKxKg2JTb1R7xLcXf1S4=
+
+Name: lib/armeabi/libgdx.so
+SHA1-Digest: 5Ru6ilylgIP6WzSwd87+o/4ClL4=
+
+Name: lib/x86/libgdx-box2d.so
+SHA1-Digest: L74EcZxp9U/qkGOBZQs+8nIL1Eo=
+
+Name: lib/x86/libgdx.so
+SHA1-Digest: 0bbi82vR7rF3+SC+uI2ZLYKDImQ=
+
+Name: lib/x86_64/libgdx-box2d.so
+SHA1-Digest: dPcVc5cM1Cc/ZcgYdXu882eQp8E=
+
+Name: lib/x86_64/libgdx.so
+SHA1-Digest: dOj1zBXKWvzXK1b5regDqyCmCSQ=
+
+Name: res/drawable-anydpi-v21/ic_launcher_background.xml
+SHA1-Digest: AQ3wxbjrHlBa1TjbO5zxJmtkZ/4=
+
+Name: res/drawable-anydpi-v26/ic_launcher.xml
+SHA1-Digest: mU4BLDZGDvrajEwhuW+fJVbE3+o=
+
+Name: res/drawable-anydpi-v26/ic_launcher_foreground.xml
+SHA1-Digest: z7nF/U/uvayC0W/zIf+FZZMwlyQ=
+
+Name: res/drawable-hdpi-v4/ic_launcher.png
+SHA1-Digest: tAGKqWRYLhyEsOSLLixSIJxCDjY=
+
+Name: res/drawable-hdpi-v4/ic_launcher_background.png
+SHA1-Digest: DII815EJ6vbnrS/pIPIZFpf5Oag=
+
+Name: res/drawable-ldpi-v4/ic_launcher_background.png
+SHA1-Digest: oJbMTL/FcZ1fZCByzrARaQ9Voq8=
+
+Name: res/drawable-mdpi-v4/ic_launcher.png
+SHA1-Digest: lItD6Leskl7FRVdVXO/RvoIe/bg=
+
+Name: res/drawable-mdpi-v4/ic_launcher_background.png
+SHA1-Digest: VtTwcklgtOpEzXxOnTU36f2YOO8=
+
+Name: res/drawable-xhdpi-v4/ic_launcher.png
+SHA1-Digest: fvSns25ENL3aJCXfF7waGC91nT0=
+
+Name: res/drawable-xhdpi-v4/ic_launcher_background.png
+SHA1-Digest: BBvquy3pfE6eFXqTrD2LxWAhAdM=
+
+Name: res/drawable-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: djlOYf5ffxT0ODzDnTZjrvnpxBY=
+
+Name: res/drawable-xxhdpi-v4/ic_launcher_background.png
+SHA1-Digest: nRRzVV4bA9Ih+UEbU9chKp/UY/Q=
+
+Name: res/drawable-xxxhdpi-v4/ic_launcher.png
+SHA1-Digest: qSpF/CjjEGA2AYgHJgv9glaIwSc=
+
+Name: res/drawable-xxxhdpi-v4/ic_launcher_background.png
+SHA1-Digest: EQ/gxUYiVfmlS7avL+hfMLsoH6E=
+
+Name: res/mipmap-anydpi-v26/ic_launcher.xml
+SHA1-Digest: enfFEBcx7uyNvLfdXqfD5lzj94I=
+
+Name: res/mipmap-anydpi-v26/ic_launcher_round.xml
+SHA1-Digest: enfFEBcx7uyNvLfdXqfD5lzj94I=
+
+Name: res/mipmap-hdpi-v4/ic_launcher.png
+SHA1-Digest: eR+YG2QfCMdJ4jxKdWYly7ML/y4=
+
+Name: res/mipmap-hdpi-v4/ic_launcher_foreground.png
+SHA1-Digest: 2PP+i4fN/y/w369BqcqjtkBi5b4=
+
+Name: res/mipmap-hdpi-v4/ic_launcher_round.png
+SHA1-Digest: oN1PEhfFRkCH3kFl/5J0/JDdeaM=
+
+Name: res/mipmap-mdpi-v4/ic_launcher.png
+SHA1-Digest: VLpVxgwRn0hF0MjuU74rnX9Gwuw=
+
+Name: res/mipmap-mdpi-v4/ic_launcher_foreground.png
+SHA1-Digest: 6Zhrb8DwsyxkMhVyroimiLhnoWA=
+
+Name: res/mipmap-mdpi-v4/ic_launcher_round.png
+SHA1-Digest: /6CzC4jQoROSEFWNOBFDZDMk+ZY=
+
+Name: res/mipmap-xhdpi-v4/ic_launcher.png
+SHA1-Digest: XT/RcVX1id0l7GttBZSh9CTMY7E=
+
+Name: res/mipmap-xhdpi-v4/ic_launcher_foreground.png
+SHA1-Digest: dZlTWiLsBwnRSt2ukKaETS3tJZM=
+
+Name: res/mipmap-xhdpi-v4/ic_launcher_round.png
+SHA1-Digest: 8YKa342Wy+/8Gssv4D8gMnb+bec=
+
+Name: res/mipmap-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: oBkhTUE2TnxUb+KLZBJDQhb/SGc=
+
+Name: res/mipmap-xxhdpi-v4/ic_launcher_foreground.png
+SHA1-Digest: FnNxSGvZo04jMXLbvwfxIWSuk4k=
+
+Name: res/mipmap-xxhdpi-v4/ic_launcher_round.png
+SHA1-Digest: PkTJ7u8HlEoArjela6DcYpsMn0I=
+
+Name: res/mipmap-xxxhdpi-v4/ic_launcher.png
+SHA1-Digest: XEHyuWrq6KwZZisGRWm3T96CA6o=
+
+Name: res/mipmap-xxxhdpi-v4/ic_launcher_foreground.png
+SHA1-Digest: Mjh/xmW1KIqUXynxK98TqipfYRw=
+
+Name: res/mipmap-xxxhdpi-v4/ic_launcher_round.png
+SHA1-Digest: JDlG4eQBkdwRmzch9Q1JoUfS6PY=
+
+Name: resources.arsc
+SHA1-Digest: nGt5vSXCXzxIcLHOiAxiiDylh6Y=
+
