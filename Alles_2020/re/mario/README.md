@@ -7,6 +7,7 @@ Play the game, hit the question mark tiles in a particular order, pass the check
 ### Longer version
 I always had fun playing mario, so I proceeded to installed the game on my android phone and did a quick check of the functionalities in the app.
 
+![Play gif](play.gif)
 
 So, it looks like we need to hit the question mark tiles in a particular order to get the flag, maybe the rainbow colored tile calls the flag check function.
 
@@ -83,6 +84,8 @@ Looking at decompied java code I found a `checkFlag()` function in  `MyPlatforme
 
 To find the order of the colored question mark tiles, we need to find the value of each color. We can easily figure that out looking at the `map.tmx` and `tileSet.png` in the assets folder. We get the index of each colored tile by looking at the image, and value of the tile by lookin in `map.tmx`. There might be a better way to do that but this seemed to work.
 
+![tile](prehistoric-mario/assets/tileSet.png)
+
 To get the correct input order, I wrote a bruteforce script in C and python.
 
 C code to get all possible input combination, because C is faster than python.
@@ -152,3 +155,7 @@ Red
 ```
 
 Now that we have figured out the input order, the final step is to play the game and get the flag.
+
+![Win gif](win.gif)
+
+### Flag: ALLES{1TS_A_DINO}
